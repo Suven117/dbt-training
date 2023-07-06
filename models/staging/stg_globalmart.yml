@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: A fact table with one unique order per row
+    columns:
+      - name: orderid
+        description: The primary key of the globalmart stg_orders
+      - name: shipmode
+        description: '{{doc("shipmode")}}'
